@@ -1,7 +1,7 @@
 class Omusic < Formula
   desc "Reproductor de música TUI que usa YouTube vía yt-dlp y mpv"
   homepage "https://github.com/AlexCas/omtube"
-  version "0.3.0"
+  version "0.4.0"
   license "MIT"
 
   depends_on "mpv"
@@ -9,23 +9,23 @@ class Omusic < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/AlexCas/omtube/releases/download/v0.3.0/omusic_0.3.0_darwin_arm64.tar.gz"
-      sha256 "2a044cd4b54a5143229ff07fc416175f77a623256e7d6ffcddf7eb0bdd775525"
+      url "https://github.com/AlexCas/omtube/releases/download/v0.4.0/omusic_0.4.0_darwin_arm64.tar.gz"
+      sha256 "2ec054280ebad96839fe0998f233cdfe85bcbcb53d955b94fa106c9969b6fe34"
     end
     on_intel do
-      url "https://github.com/AlexCas/omtube/releases/download/v0.3.0/omusic_0.3.0_darwin_amd64.tar.gz"
-      sha256 "a2658ef720e2bc68f6b55440f488383d0f2e3781b70eba09be27a9686fd7926f"
+      url "https://github.com/AlexCas/omtube/releases/download/v0.4.0/omusic_0.4.0_darwin_amd64.tar.gz"
+      sha256 "7334854b9f9a58bcdfac3d1093a31de6c40e4081e923549eb9cac85c9df66779"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/AlexCas/omtube/releases/download/v0.3.0/omusic_0.3.0_linux_arm64.tar.gz"
-      sha256 "c6a1bc2c0f9b193827595bcff40f492ce9e3e1d7abd3417de601d7a614e15552"
+      url "https://github.com/AlexCas/omtube/releases/download/v0.4.0/omusic_0.4.0_linux_arm64.tar.gz"
+      sha256 "289c23b11eb1978f1f8a2ec9d5ab74cf7790fd25e667a8b459505f0c95df5c07"
     end
     on_intel do
-      url "https://github.com/AlexCas/omtube/releases/download/v0.3.0/omusic_0.3.0_linux_amd64.tar.gz"
-      sha256 "b782ef39d9ff645f7da99c66cb1964727108a3544a3e35df2911e24473fea360"
+      url "https://github.com/AlexCas/omtube/releases/download/v0.4.0/omusic_0.4.0_linux_amd64.tar.gz"
+      sha256 "e88a22ba38fdec6bfd8b127e08fa084c2368326765a62ad04b74f32ae7ef23de"
     end
   end
 
